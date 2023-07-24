@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const mongoDB = require("./database/mongo");
+const mongoDB = require("./database/mongoose");
 
 app.use(express.json());
 
